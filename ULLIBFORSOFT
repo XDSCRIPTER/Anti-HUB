@@ -1,3 +1,11 @@
+local ValidCharacters = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
+local String = ``
+for i = 1, len do
+	String = String..ValidCharacters[math.random(1,#ValidCharacters)]
+end
+
+print(String)
+
 local library = {}
 function play(id)
     for _, v in next, workspace:GetChildren() do
@@ -78,7 +86,7 @@ local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
-Screen.Name = "By Shaddow"
+Screen.Name = String
 Screen.Parent = game:WaitForChild("CoreGui")
 Screen.Enabled = true
 
