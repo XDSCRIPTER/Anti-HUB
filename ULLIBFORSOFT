@@ -1,10 +1,15 @@
-local ValidCharacters = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
-local String = ``
-for i = 1, len do
-	String = String..ValidCharacters[math.random(1,#ValidCharacters)]
+Local Antidec = "xd"
+while wait(0.1) do
+Local Antidec = "21421"
+wait(0.1)
+Local Antidec = "51254"
+wait(0.1)
+Local Antidec = "22421"
+wait(0.1)
+Local Antidec = "51654"
+wait(0.1)
+Local Antidec = "51854"
 end
-
-print(String)
 
 local library = {}
 function play(id)
@@ -86,7 +91,7 @@ local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
-Screen.Name = String
+Screen.Name = Antidec
 Screen.Parent = game:WaitForChild("CoreGui")
 Screen.Enabled = true
 
