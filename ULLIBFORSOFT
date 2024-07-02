@@ -1,30 +1,7 @@
-local random = Random.new()
-local letters = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}
-
-function getRandomLetter()
-	return letters[random:NextInteger(1,#letters)]
-end
-
-function getRandomString(length, includeCapitals)
-	local length = length or 10
-	local str = ''
-	for i=1,length do
-		local randomLetter = getRandomLetter()
-		if includeCapitals and random:NextNumber() > .5 then
-			randomLetter = string.upper(randomLetter)
-		end
-		str = str .. randomLetter
-	end
-	return str
-end
-
-print(getRandomString(7, true))
-
-
 local library = {}
 function play(id)
     for _, v in next, workspace:GetChildren() do
-        if v.Name == getRandomString then
+        if v.Name == "GUISound" then
             v:Destroy()
         end
     end
@@ -41,7 +18,7 @@ local theme2
 local theme3
 local toolight = false
     for i,v in pairs(game.CoreGui:GetChildren()) do
-if v.Name == getRandomString then
+if v.Name == "By Shaddow" then
         v:Destroy()
     end
 end
