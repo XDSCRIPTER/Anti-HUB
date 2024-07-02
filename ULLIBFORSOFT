@@ -1,14 +1,14 @@
 local Antidec = "xd"
 while wait(0.1) do
-local Antidec = "21421"
+Antidec = "21421"
 wait(0.1)
-local Antidec = "51254"
+Antidec = "51254"
 wait(0.1)
-local Antidec = "22421"
+Antidec = "22421"
 wait(0.1)
-local Antidec = "51654"
+Antidec = "51654"
 wait(0.1)
-local Antidec = "51854"
+Antidec = "51854"
 end
 
 local library = {}
