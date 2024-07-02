@@ -9,6 +9,9 @@ wait(0.1)
 Antidec = "51654"
 wait(0.1)
 Antidec = "51854"
+wait(0.1)
+Antidec = "58654"
+
 end
 
 local library = {}
