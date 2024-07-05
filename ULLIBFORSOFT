@@ -319,6 +319,11 @@ Library.Create = function(_, LibraryOptions)
 		BackgroundColor3 = Theme.Main
 	})
 
+         local wagner = Instance.new("ImageLabel")
+         wagner.Parent = MainFrame
+         wagner.BackgroundTransparency = 1 
+         wagner.Image = "rbxassetid://16740447129"
+         wagner.ZIndex = 0
 
 
 
