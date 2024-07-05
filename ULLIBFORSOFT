@@ -318,8 +318,14 @@ Library.Create = function(_, LibraryOptions)
 		BorderSizePixel = 0,
 		BackgroundColor3 = Theme.Main
 	})
-
+        local wagner = instance.new(ImageLabel)
+        wagner.Parent = MainFrame
+        wagner.ZIndex = 0
 	self:Object("Round", OptionsContainer)
+        wagner.BackgroundTransparency = 1
+        wagner.Position = UDim2.new(0.5, 0, 0.5, 0)
+        wagner.ImageId = "rbxassetid://16740447129"
+
 
 	local Tabs = self:Object("Frame", {
 		Name = "Tabs",
