@@ -318,7 +318,8 @@ Library.Create = function(_, LibraryOptions)
 		BorderSizePixel = 0,
 		BackgroundColor3 = Theme.Main
 	})
-        local wagner = instance.new(ImageLabel)
+
+   local wagner = Instance.new(ImageLabel)
         wagner.Parent = MainFrame
         wagner.ZIndex = 0
 	self:Object("Round", OptionsContainer)
