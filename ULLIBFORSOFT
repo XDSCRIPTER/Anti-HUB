@@ -321,7 +321,7 @@ Library.Create = function(_, LibraryOptions)
 
          local wagner = Instance.new("ImageLabel")
          wagner.Parent = MainFrame
-         wagner.BackgroundTransparency = 1 
+         wagner.BackgroundTransparency = 0 
          wagner.Image = "rbxassetid://16740447129"
          wagner.ZIndex = 3
          wagner.Position = UDim2.new(0.5, 0, 0.5, 0)
