@@ -1,7 +1,7 @@
 -- Source code here!
 local Library = {Count = 0, Tab = nil}
 
---local Themes = {
+local Themes = {
 	Light = {
 		Main = Color3.fromRGB(190, 190, 190),
 		TabsBackground = Color3.fromRGB(54, 57, 63),
